@@ -1,0 +1,1 @@
+ALTER TABLE customers ADD UNIQUE(last_name, first_name)
