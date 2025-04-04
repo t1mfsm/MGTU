@@ -1,0 +1,3 @@
+export const ID = 226004858
+export const accessToken = 'vk1.a.jtstvVwAcHDR7G08gBv1YZqQ3aqZGhicdkPuzapWSqTeTibXZ5HfjGMorMr7NkyIJKQlfLVqbEQ20h3u4_jFbOFdIvKxMEnT8s4PdmqNfbBL8pfFBHuYiQdevwqqtHh6hKwyRD40yfibJnYhWKnI3hEyRc68608LUsQK_HK3hnvvb5b9_b1_ig2wBdrVTWZP0biE8_SJHxuKa1n1bR1w1Q'
+export const version = '5.131'

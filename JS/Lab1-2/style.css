@@ -1,0 +1,84 @@
+/* опишем базовый стиль кнопки калькулятора */
+.my-btn { 
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #515151;
+  color: white;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  user-select: none;
+} 
+
+/* hover - это состояние элемента, когда на него наведен курсор */
+.my-btn:hover {
+  background: darkgray;
+}
+
+/* active - это состояние активации элемента. В случае кнопки - нажатие на нее */
+.my-btn:active {
+  filter: brightness(130%);
+}
+
+/* селектор для кнопок первостепенных операций */
+.my-btn.primary { 
+  background: #ff9801;
+}
+
+/* селектор для кнопок второстепенных операций */
+.my-btn.secondary { 
+  background: #a6a6a6;
+}
+
+/* селектор для кнопки расчета выражения (=) */
+.my-btn.execute { 
+  width: 100px;
+  border-radius: 34px;
+}
+
+/* селектор для поля вывода результата */
+.result { 
+  width: 220px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  background: rgb(73, 73, 73);
+  text-align: right;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  width: auto;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: black;
+}
+
+.dropdown-content p {
+  margin: 0;
+}
+
+.dropdown-btn {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

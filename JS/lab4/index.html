@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="main.js" type="module"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        VK.init({
+          apiId: 335591503
+        });
+      </script>
+    <div id="vk_auth"></div>
+    <script type="text/javascript">
+         VK.Widgets.Auth('vk_auth', {});
+    </script>
+</body>
+</html>
